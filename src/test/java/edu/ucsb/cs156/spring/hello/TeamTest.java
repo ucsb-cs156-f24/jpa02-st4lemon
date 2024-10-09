@@ -11,12 +11,12 @@ public class TeamTest {
 
     @BeforeEach
     public void setup() {
-        team = new Team("test-team");    
+        team = new Team("f24-13");    
     }
 
     @Test
     public void getName_returns_correct_name() {
-       assert(team.getName().equals("test-team"));
+       assert(team.getName().equals("f24-13"));
     }
 
    
